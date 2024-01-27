@@ -15,3 +15,5 @@ fn main() {
 //since if is an expression, can use on the RHS of a let statement
 //eg. let condition = true;
 //let number = if condition{ 5 } else { 6 };
+//types must also be matched
+//let number = if condition { 5 } else { "six" }; will not compile
